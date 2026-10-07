@@ -1,0 +1,129 @@
+{
+  "unidades": [
+    {
+      "id": "u1",
+      "titulo": "Unidade 1 · Quebrando o gelo",
+      "licoes": [
+        {
+          "id": "u1-l1",
+          "titulo": "Reagindo a stories",
+          "exercicios": [
+            {
+              "tipo": "escolha",
+              "situacao": "Seu crush postou um story com o cachorro dele.",
+              "opcoes": [
+                { "texto": "Que fofo! Qual o nome dele?", "nota": "otima", "feedback": "Elogio + pergunta aberta. Dá assunto de graça." },
+                { "texto": "Oi", "nota": "cringe", "feedback": "'Oi' é o bom dia de quem não quer nada." },
+                { "texto": "Seu cachorro é mais bonito que você kkk", "nota": "desastre", "feedback": "Elogio com pegadinha. O cupido pediu demissão." }
+              ]
+            },
+            {
+              "tipo": "vf",
+              "afirmacao": "Mandar 'oi sumida(o)' é uma boa abertura de conversa.",
+              "resposta": false,
+              "feedback": "Joga a responsabilidade do assunto pra outra pessoa. Comente algo específico."
+            },
+            {
+              "tipo": "ordem",
+              "enunciado": "Monte a mensagem: reagindo a uma foto de viagem.",
+              "palavras": ["Esse", "lugar", "parece", "incrível!", "Foi", "onde?"],
+              "resposta": ["Esse", "lugar", "parece", "incrível!", "Foi", "onde?"],
+              "feedback_ok": "Reação + pergunta. Combo clássico.",
+              "feedback_erro": "A frase ficou embaralhada demais."
+            }
+          ]
+        },
+        {
+          "id": "u1-l2",
+          "titulo": "Primeira mensagem no app",
+          "exercicios": [
+            {
+              "tipo": "escolha",
+              "situacao": "Match novo! No perfil dela(e) tem: 'viciada(o) em pizza'.",
+              "opcoes": [
+                { "texto": "Pizza com abacaxi: crime ou obra de arte?", "nota": "otima", "feedback": "Polêmica leve que pede resposta." },
+                { "texto": "Oi, tudo bem?", "nota": "ok", "feedback": "Educado, mas esquecível. Perfil dá munição, use." },
+                { "texto": "Vamos sair hoje?", "nota": "cringe", "feedback": "Rápido demais. Nem sabe seu sobrenome." }
+              ]
+            },
+            {
+              "tipo": "vf",
+              "afirmacao": "Ler o perfil antes de mandar mensagem aumenta suas chances.",
+              "resposta": true,
+              "feedback": "Mensagem personalizada ganha de copiar e colar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "titulo": "Unidade 2 · Mantendo o papo",
+      "licoes": [
+        {
+          "id": "u2-l1",
+          "titulo": "Sem virar entrevista",
+          "exercicios": [
+            {
+              "tipo": "escolha",
+              "situacao": "Ela(e) disse que gosta de séries. Você responde...",
+              "opcoes": [
+                { "texto": "Qual série você tá vendo agora? Eu tô viciada(o) em uma e preciso de indicação nova.", "nota": "otima", "feedback": "Pergunta + algo seu. Conversa vira troca." },
+                { "texto": "Legal.", "nota": "cringe", "feedback": "Fim de papo. Parabéns." },
+                { "texto": "Qual sua cor favorita? Signo? Time? Número do sapato?", "nota": "desastre", "feedback": "Isso é interrogatório, não paquera." }
+              ]
+            },
+            {
+              "tipo": "vf",
+              "afirmacao": "Falar só de si mesmo mostra confiança.",
+              "resposta": false,
+              "feedback": "Confiança é curiosidade pelo outro também."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "titulo": "Unidade 3 · O convite",
+      "licoes": [
+        {
+          "id": "u3-l1",
+          "titulo": "Chamando pra sair",
+          "exercicios": [
+            {
+              "tipo": "escolha",
+              "situacao": "Vocês conversam há uma semana e o papo está ótimo. Hora do convite!",
+              "opcoes": [
+                { "texto": "Tô a fim de um café sábado à tarde. Topa?", "nota": "otima", "feedback": "Direto, leve e com data. Fácil dizer sim." },
+                { "texto": "A gente podia se ver qualquer dia, né?", "nota": "cringe", "feedback": "'Qualquer dia' vira 'nunca'." },
+                { "texto": "Vem pra minha casa agora.", "nota": "desastre", "feedback": "Intensidade nível 100 sem aquecimento." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "titulo": "Unidade 4 · Zona de perigo",
+      "licoes": [
+        {
+          "id": "u4-l1",
+          "titulo": "Visto e não respondido",
+          "exercicios": [
+            {
+              "tipo": "escolha",
+              "situacao": "Há 2 dias a pessoa visualizou sua mensagem e sumiu.",
+              "opcoes": [
+                { "texto": "Seguir a vida e responder se ela(e) voltar.", "nota": "otima", "feedback": "Maturidade emocional detectada." },
+                { "texto": "Mandar 'oi?' a cada hora.", "nota": "desastre", "feedback": "Isso é spam com sentimento." },
+                { "texto": "Mandar uma mensagem leve com um meme.", "nota": "ok", "feedback": "Dá pra tentar uma vez. Só uma." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
